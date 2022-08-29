@@ -7,10 +7,9 @@ body {
 }
 section {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 100px;
+  margin: 2rem auto;
+  height: 400px;
+  width: 400px;
   overflow: hidden;
 }
 /* ==== HOVER ==== */
@@ -25,8 +24,8 @@ div {
   height: 400px;
   width: 400px;
   opacity: 0;
-  transition: 1s;
   top: 100%;
+  transition: 1s ease-in;
 }
 section:hover div {
   opacity: 1;
